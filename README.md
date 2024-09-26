@@ -1,6 +1,6 @@
 # Vhalus-Codex 📜🌌
 
-Welcome to the **Vhalus-Codex** repository, the comprehensive guide to the world of **Vhalus**. This is a living document that contains lore, history, magic systems, and much more about the rich and ever-evolving realm of Vhalus. Whether you're a writer, game designer, or just a fan of expansive fantasy worlds, this codex is for you.
+Welcome to the **Vhalus-Codex** repository, the comprehensive guide to the world of **Vhalus**. This living document contains lore, history, magic systems, and much more about the rich and ever-evolving realm of Vhalus. Whether you're a writer, game designer, or fan of expansive fantasy worlds, this codex is for you.
 
 ## Overview 🧭
 
@@ -26,7 +26,7 @@ The **Vhalus-Codex** is organized into several sections:
 - `/data/`: Contains JSON files that store character information and other structured data.
   - `characters.json`: A comprehensive list of important characters, their abilities, and affiliations.
 
-- `/pages/`: HTML pages that correspond to different sections of the codex, such as character biographies or detailed descriptions of magical artifacts.
+- `/pages/`: HTML pages that correspond to different sections of the codex, such as character biographies or detailed descriptions of magical artefacts.
 
 ## Getting Started 🚀
 
@@ -45,7 +45,7 @@ To explore the codex locally:
 
 ## Contributing 🤝
 
-We welcome contributions! If you have ideas for new lore, expansions to the magic systems, or improvements to the site structure, feel free to open a pull request or submit an issue.
+We welcome contributions! If you have ideas for new lore, magic system expansions, or site structure improvements, feel free to open a pull request or submit an issue.
 
 ### Guidelines:
 - Ensure that all contributions are lore-friendly and fit within the established world of Vhalus.
