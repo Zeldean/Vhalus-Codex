@@ -7,17 +7,17 @@ body {
     margin: 0;
     padding: 0;
   }
-  
-  h1, h2, h3, h4, h5, h6 {
+h1, h2 {
+    text-align: center; /* Center headings */
+}
+h1, h2, h3, h4, h5, h6 {
     color: #ff79c6;
     font-family: 'Roboto Slab', serif;
     margin-bottom: 0.5em;
-    text-align: center; /* Center headings */
-  }
+}
   
   p, ul, ol {
     color: #f1f1f1;
-    text-align: center; /* Center paragraphs and lists */
   }
   
   a {
@@ -118,7 +118,7 @@ body {
   
   /* Code & List Styles */
   li:before {
-    content: "— ";
+    /* content: "— "; */
     color: #6272a4;
   }
   
