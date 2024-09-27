@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | Vhalus Codex</title>
+  <link rel="stylesheet" href="../styles/docs.css">
+</head>
+<body>
+  <header>
+    {% include header.html %}
+  </header>
+
+  <main>
+    {{ content }}  <!-- This is where page content will be injected -->
+  </main>
+
+  <footer>
+    <p>© 2024 Vhalus Codex</p>
+  </footer>
+</body>
+</html>

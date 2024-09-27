@@ -1,0 +1,167 @@
+/* General Styling */
+body {
+    background-color: #1e1e2e;
+    color: #f8f8f2;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #ff79c6;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 0.5em;
+    text-align: center; /* Center headings */
+  }
+  
+  p, ul, ol {
+    color: #f1f1f1;
+    text-align: center; /* Center paragraphs and lists */
+  }
+  
+  a {
+    color: #8be9fd;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #50fa7b;
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #282a36;
+    padding: 1.5em 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    color: #f8f8f2;
+  }
+  
+  header h1 span {
+    color: #bd93f9;
+  }
+  
+  /* Main Content */
+  main {
+    max-width: 800px; /* Maximum width for centering */
+    margin: 2em auto; /* Centering and spacing */
+    padding: 2em;
+    background-color: #22212c; /* Background for main content */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  hr {
+    border: none;
+    border-top: 2px solid #44475a;
+    margin: 2em 0;
+  }
+  
+  ul {
+    padding-left: 1.5em;
+  }
+  
+  ul li {
+    margin-bottom: 0.75em;
+  }
+  
+  ol {
+    padding-left: 1.5em;
+  }
+  
+  ol li {
+    margin-bottom: 0.75em;
+  }
+  
+  /* Highlighted Sections */
+  strong {
+    color: #ffb86c;
+  }
+  
+  h1:before {
+    content: '🛡️';
+    margin-right: 0.5em;
+  }
+  
+  h2:before {
+    content: '🌟';
+    margin-right: 0.5em;
+  }
+  
+  h2[id*="ranking-structure"]:before {
+    content: '🏆';
+  }
+  
+  h2[id*="evaluation-process"]:before {
+    content: '⚔️';
+  }
+  
+  h2[id*="advancement-and-progression"]:before {
+    content: '🎯';
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #282a36;
+    text-align: center;
+    padding: 1em 0;
+    color: #6272a4;
+    font-size: 0.9rem;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  /* Code & List Styles */
+  li:before {
+    content: "— ";
+    color: #6272a4;
+  }
+  
+  /* Dark Background for Important Sections */
+  section {
+    background-color: #282a36;
+    border-radius: 10px;
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+  }
+  
+  /* Highlight hoverable links */
+  li a {
+    color: #bd93f9;
+  }
+  
+  li a:hover {
+    color: #ff79c6;
+  }
+  
+  /* Make headings stand out */
+  h2, h3 {
+    border-bottom: 2px solid #44475a;
+    padding-bottom: 0.5em;
+  }
+  
+  /* Customize rank colors */
+  h3[id*="rank"] {
+    color: #ffb86c;
+  }
+  
+  /* Scrollbar Customization */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #1e1e2e;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #6272a4;
+    border-radius: 10px;
+    border: 2px solid #1e1e2e;
+  }
+  
