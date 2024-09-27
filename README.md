@@ -1,6 +1,6 @@
 # Vhalus-Codex 📜🌌
 
-Welcome to the **Vhalus-Codex** repository, the comprehensive guide to the world of **Vhalus**. This living document contains lore, history, magic systems, and much more about the rich and ever-evolving realm of Vhalus. Whether you're a writer, game designer, or fan of expansive fantasy worlds, this codex is for you.
+Welcome to the [**Vhalus-Codex**](https://zeldean.me/Vhalus-Codex/) repository, the comprehensive guide to the world of **Vhalus**. This living document contains lore, history, magic systems, and much more about the rich and ever-evolving realm of Vhalus. Whether you're a writer, game designer, or fan of expansive fantasy worlds, this codex is for you.
 
 ## Overview 🧭
 
