@@ -1,0 +1,34 @@
+# Site settings
+title: Vhalus Codex
+description: "A detailed codex for the world of Vhalus."
+baseurl: "/Vhalus-Codex"  # Subdirectory on GitHub Pages
+url: "https://zeldean.me"  # Custom domain without trailing slash
+
+# Markdown and kramdown
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# GitHub Pages settings
+repository: Zeldean/Vhalus-Codex  # Your GitHub repository
+
+# Exclude folders and files from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - .gitignore
+  - README.md
+  - file_structure.txt
+  - definitions.json
+  - temp.html
+  - test.c++
+
+# Plugins (Optional if you plan to use them)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Build settings (Optional, defaults to these values if not present)
+# source: .
+# destination: ./_site

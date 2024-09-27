@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vhalus-Codex</title>
+    <style>        
+        body {
+            background-color: #0b000f;
+            color: #fff;
+        }        
+    </style>
+    <link rel="stylesheet" href="styles/definitions.css">
+</head>
+<body>
+    <h1>Heading</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing <span class="tooltip" data-word="Vhalus">vhalus</span>. Officiis, eligendi, facere adipisci nulla quis tenetur iste nihil, illo quam similique eum rerum quisquam excepturi accusantium deleniti velit consectetur unde aliquam.</p>
+    <p>
+        The <span class="tooltip" data-word="Zephlore">Zephlore</span> system helps to classify individuals into ranks.
+    </p>
+
+<script>
+// Fetch definitions from JSON file
+fetch('definitions.json')
+    .then(response => response.json())
+    .then(data => {
+        document.querySelectorAll('.tooltip').forEach(element => {
+            const word = element.getAttribute('data-word');
+            if (data[word]) {
+                const tooltipText = document.createElement('span');
+                tooltipText.classList.add('tooltip-text');
+                tooltipText.innerText = data[word];
+                element.appendChild(tooltipText);
+            }
+        });
+    })
+    .catch(error => console.error('Error loading definitions:', error));
+</script>
+
+</body>
+</html>
