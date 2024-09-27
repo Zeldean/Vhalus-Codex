@@ -1,0 +1,72 @@
+/* Global Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container that holds the nav and main */
+.container-layout--nav-main {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Navigation Bar */
+.pop-nav {
+    position: sticky;
+    left: 0;
+    top: 0;
+    bottom: 0;
+
+    width: 2%;
+    height: 100vh;
+    padding: 20px;
+    margin: 0;
+    overflow: hidden;
+    
+    transition: width 0.5s ease;
+}
+.pop-nav > * {
+    opacity: 0;
+
+    transition: all 0.5s;
+}
+/* Expands the width on hover */
+.pop-nav:hover {
+    width: 18%;
+}
+.pop-nav:hover > * {
+    opacity: 1;
+
+    transition: all 0.5s;
+}
+/* Icon in the Navigation Bar */
+.pop-nav img {
+    display: block;
+    margin: 20px auto;
+    width: 40%;
+    height: auto;
+    border-radius: 42px;
+}
+
+/* Navigation List */
+.pop-nav ul {
+    list-style: none;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: max-content;
+}
+
+/* Navigation List Items */
+.pop-nav ul li {
+    margin: 15px 0;
+    white-space: nowrap;
+}
+
+
+/* Optinal styling */
+.pop-nav {
+    background-color: black;
+    color: aliceblue;
+}

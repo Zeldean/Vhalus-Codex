@@ -5,15 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }} | Vhalus Codex</title>
   <link rel="stylesheet" href="../styles/docs.css">
+  <link rel="stylesheet" href="../styles/navbar.css">
 </head>
 <body>
-  <header>
-    {% include header.html %}
-  </header>
-
-  <main>
-    {{ content }}  <!-- This is where page content will be injected -->
-  </main>
+    <header>
+        {% include header.html %}
+    </header>
+    <div class="container-layout--nav-main">
+        <nav class="pop-nav">
+            <img src="FqO_bdKWYBMKgNw.jpeg" alt="Icon for the nav">
+            <ul>
+                <li>a Nav Item</li>
+                <li>This is also a Nav Item</li>
+                <li>This too</li>
+                <li>also this</li>
+            </ul>
+        </nav>
+        <main>
+            {{ content }}  <!-- This is where page content will be injected -->
+        </main>
+    </div>
+  
 
   <footer>
     <p>© 2024 Vhalus Codex</p>
