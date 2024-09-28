@@ -32,3 +32,13 @@ plugins:
 # Build settings (Optional, defaults to these values if not present)
 # source: .
 # destination: ./_site
+
+
+
+# This is names of things that might change
+
+cv001: Zeldean
+
+
+liquid:
+  enabled: true

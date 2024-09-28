@@ -1,13 +1,17 @@
+---
+layout: none
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Vhalus-Codex: An exploration into the mystical realms of Vhalus, its creatures, magic systems, and rich lore.">
-    <title>Vhalus-Codex</title>
+    <title>{{ page.title }}</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/linksList.css">
 </head>
-
 <body>
     <header>
         <div class="header-content">
@@ -24,12 +28,29 @@
         </div>
     </section>
 
-    <section id="explore" class="explore-section">
+    <!-- <section id="explore" class="explore-section">
         <h2>The Codex</h2>
         <p>Discover the detailed knowledge, ancient texts, and fascinating lore of Vhalus.</p>
-        <div class="codex-links" id="codex-links">
-            <!-- Dynamic links will be inserted here -->
+        <div class="codex-links">
+            
+            {% for doc in site.static_files %}
+                {% if doc.path contains 'docs/' and doc.extname == '.html' %}
+                    <a href="{{ doc.path | relative_url }}">{{ doc.name | replace: '.html', '' }}</a>
+                {% endif %}
+            {% endfor %}
         </div>
+    </section> -->
+
+    <section class="pagesLinks">
+        <h2>Pages</h2>
+        <!-- Dynamically generate links to HTML pages -->
+        <ul>
+            {% for page in site.pages %}
+            {% if page.url contains '/docs/' %}
+            <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+        </ul>
     </section>
 
     <footer>

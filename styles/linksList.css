@@ -1,0 +1,25 @@
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+}
+li {
+    background-color: rgba(137, 43, 226, 0.582);
+    color: aliceblue;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 12px;
+}
+li a {
+    color: azure;
+    text-decoration: none;
+}
+
+.pagesLinks {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
