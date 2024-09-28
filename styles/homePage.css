@@ -1,0 +1,88 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+  } */
+  header {
+    width: 100%;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Styling the navigation */
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  nav ul li {
+    position: relative;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+    border-radius: 4px;
+  }
+  
+  /* Submenu styling */
+  nav ul ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    display: none;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  nav ul ul li {
+    margin: 0;
+    width: 160px;
+  }
+  
+  nav ul ul li a {
+    padding: 10px 15px;
+  }
+  
+  nav ul ul li a:hover {
+    background-color: #555;
+    border-radius: 4px;
+  }
+  
+  /* Display submenu on hover */
+  nav ul li:hover > ul {
+    display: block;
+  }
+  
+  /* Adjusting Help and Resources */
+  nav ul li:last-child a {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  nav ul li:last-child a:hover {
+    background-color: #0056b3;
+  }
+  

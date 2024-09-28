@@ -20,30 +20,27 @@ layout: none
         </div>
     </header>
 
-    <section class="hero">
+    <section id="hero">
         <div class="hero-content">
             <h2>Welcome to Vhalus</h2>
             <p>Explore the depths of magic, creatures, and the unknown in the world of Vhalus.</p>
             <a href="#explore" class="cta-btn">Explore the Codex</a>
         </div>
     </section>
+    <section id="worldOverview">
+        <h2>World Overview</h2>
+        <!-- md file content here -->
+        <div class="markdown-content">
+            {% include world_overview.html %}
 
-    <!-- <section id="explore" class="explore-section">
-        <h2>The Codex</h2>
-        <p>Discover the detailed knowledge, ancient texts, and fascinating lore of Vhalus.</p>
-        <div class="codex-links">
-            
-            {% for doc in site.static_files %}
-                {% if doc.path contains 'docs/' and doc.extname == '.html' %}
-                    <a href="{{ doc.path | relative_url }}">{{ doc.name | replace: '.html', '' }}</a>
-                {% endif %}
-            {% endfor %}
         </div>
-    </section> -->
+    </section>
+    
 
     <section class="pagesLinks">
         <h2>Pages</h2>
         <!-- Dynamically generate links to HTML pages -->
+
         <ul>
             {% for page in site.pages %}
             {% if page.url contains '/docs/' %}
