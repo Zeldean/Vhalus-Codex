@@ -34,7 +34,7 @@ To explore the codex locally:
 
 1. Clone this repository to your machine:
    ```bash
-   git clone https://github.com/YourUsername/Vhalus-Codex.git
+   git clone https://github.com/Zeldean/Vhalus-Codex.git
    ```
 
 2. Run the site using Jekyll:
