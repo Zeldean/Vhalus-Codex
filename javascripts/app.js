@@ -17,5 +17,31 @@ function generateLinks() {
     });
 }
 
-// Call the function to generate links
-generateLinks();
+function loadContent() {
+    const contentSections = document.querySelectorAll('.JS-Inject-Here');
+
+    contentSections.forEach(section => {
+        const filePath = `docs/home-content/${section.getAttribute('data-file')}.html`
+        console.log(filePath)
+        fetch(filePath)
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById(section.getAttribute('data-file')).innerHTML = data;
+            })
+    });
+    // fetch('docs/world-overview.html')
+    //     .then(response => response.text())
+    //     .then(data => {
+    //         document.getElementById('world-overview-content').innerHTML = data;
+    //     })
+    //     .catch(error => console.error('Error loading the content:', error));
+}
+     
+// Main
+document.addEventListener('DOMContentLoaded', () => {
+    // Call the function to generate links
+    // generateLinks();
+
+    loadContent();
+})
+

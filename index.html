@@ -9,8 +9,11 @@ layout: none
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Vhalus-Codex: An exploration into the mystical realms of Vhalus, its creatures, magic systems, and rich lore.">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/linksList.css">
+    <!-- <link rel="stylesheet" href="styles/style.css"> -->
+    <!-- <link rel="stylesheet" href="styles/linksList.css"> -->
+    <link rel="stylesheet" href="styles/tempStylingForWikiHome.css">
+
+    <script src="javascripts/app.js"></script>
 </head>
 <body>
     <header>
@@ -20,15 +23,87 @@ layout: none
         </div>
     </header>
 
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Welcome to Vhalus</h2>
+            <p>Explore the depths of magic, creatures, and the unknown in the world of Vhalus.</p>
+            <a href="#explore" class="cta-btn">Explore the Codex</a>
+        </div>
+    </section>
     <main>
-        <section id="hero">
-            <div class="hero-content">
-                <h2>Welcome to Vhalus</h2>
-                <p>Explore the depths of magic, creatures, and the unknown in the world of Vhalus.</p>
-                <a href="#explore" class="cta-btn">Explore the Codex</a>
-            </div>
-        </section>
-        
+        <div id="content-container">
+
+            <!-- 1. World Overview -->
+            <section id="world-overview" class="content-section">
+                <div data-file="world-overview" class="JS-Inject-Here">
+                    <!-- JS will inject content here -->
+                </div>                            
+            </section>
+
+            <!-- 2. Magic System -->
+            <section id="enigmatica-manipulation" class="content-section">
+                <div data-file="enigmatica-manipulation" class="JS-Inject-Here">
+                    <!-- JS will inject content here -->
+                </div>                            
+            </section>
+
+            <!-- 3. Vhalkin and Vhalus Mutations -->
+            <section id="vhalkin-and-vhalus-mutations" class="content-section">
+                <div data-file="vhalkin-and-vhalus-mutations" class="JS-Inject-Here">
+                    <!-- JS will inject content here -->
+                </div>                            
+            </section>
+
+            <!-- 4. Notable Vhalkin (Primordials) -->
+            <section id="notable-vhalkin-primordials" class="content-section">
+                <div data-file="notable-vhalkin-primordials" class="JS-Inject-Here">
+                    <!-- JS will inject content here -->
+                </div>                            
+            </section>
+
+            <!-- 5. Ranking System (ZERS) -->
+            <section id="ranking-system" class="content-section">
+                <div data-file="ranking-system" class="JS-Inject-Here">
+                    <!-- JS will inject content here -->
+                </div>                            
+            </section>
+
+            <!-- 6. Classes -->
+            <section id="classes" class="content-section">
+                <div data-file="classes" class="JS-Inject-Here">
+                    <!-- JS will inject content here -->
+                </div>                            
+            </section>
+
+            <!-- 7. Top Characters -->
+            <section id="top-characters" class="content-section">
+                <div data-file="top-characters" class="JS-Inject-Here">
+                    <!-- JS will inject content here -->
+                </div>                            
+            </section>
+
+            <!-- 8. Factions/Organizations -->
+            <section id="factions-organizations" class="content-section">
+                <div data-file="factions-organizations" class="JS-Inject-Here">
+                    <!-- JS will inject content here -->
+                </div>                            
+            </section>
+
+            <!-- 9. Artifacts/Relics -->
+            <section id="artifacts-relics" class="content-section">
+                <div data-file="artifacts-relics" class="JS-Inject-Here">
+                    <!-- JS will inject content here -->
+                </div>                            
+            </section>
+
+            <!-- 10. Locations -->
+            <section id="locations" class="content-section">
+                <div data-file="locations" class="JS-Inject-Here">
+                    <!-- JS will inject content here -->
+                </div>                            
+            </section>            
+
+        </div>
         
         <section class="pagesLinks">
             <h2>Pages</h2>
@@ -47,6 +122,7 @@ layout: none
         <p>&copy; 2024 Vhalus-Codex. All rights reserved.</p>
     </footer>
 
-    <script src="javascripts/app.js"></script>
+    
+
 </body>
 </html>

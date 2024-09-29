@@ -1,6 +1,6 @@
 ---
-layout: main  # or whatever layout you are using
-title: Vhalus Codex  # Adjust this title per page
+layout: none
+title: Vhalus Codex
 ---
 # Welcome to Vhalus
 
