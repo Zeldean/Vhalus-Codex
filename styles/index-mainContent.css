@@ -1,0 +1,61 @@
+#content-container {
+    width: 90%;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    background-color: #2f3243; /* Darker purple background for container */
+    padding: 30px; /* Increased padding for better spacing */
+    border: 1px solid #453a62; /* Dark purple border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7); /* More prominent drop shadow */
+  
+  
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-auto-flow: dense;
+    gap: 10px;
+    overflow: hidden;
+}
+
+#world-overview {
+    grid-column: 1 / span 5;
+    grid-row: 1/ span 5;
+}
+
+#enigmatica-manipulation {
+    grid-column: 6 / span 3;
+    grid-row: 1/ span 1;
+}
+
+#vhalkin-and-vhalus-mutations {
+    grid-column: 6 / span 3;
+    grid-row: 2/ span 1;
+}
+#notable-vhalkin-primordials {
+    grid-column: 6 / span 3;
+    grid-row: 3/ span 1;
+}
+#ranking-system {
+    grid-column: 6 / span 3;
+    grid-row: 4/ span 1;
+}
+#classes {
+    grid-column: 6 / span 3;
+    grid-row: 5/ span 1;
+}
+#top-characters {
+    grid-column: 1 / span 4;
+    grid-row: 6/ span 1;
+}
+#factions-organizations {
+    grid-column: 5 / span 2;
+    grid-row: 6/ span 1;
+}
+#artifacts-relics {
+    grid-column: 7 / span 2;
+    grid-row: 6/ span 1;
+}
+#locations {
+    grid-column: 1 / span 8;
+    grid-row: 7/ span 1;
+}
