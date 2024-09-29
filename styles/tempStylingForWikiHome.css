@@ -1,9 +1,15 @@
+/* Global Styles */
+
 body {
   background-color: #3b3f54; /* Dark purple background */
   color: #ccc; /* Light gray text */
   font-family: 'Montserrat', sans-serif; /* Custom font */
   line-height: 1.6; /* Improved line height for readability */
+  font-size: 1.2rem; /* Use a flexible unit for font size */
 }
+
+/* Content Section Styles */
+
 .content-section {
   background-color: #453a62; /* Dark purple background for section */
   border: 1px solid #2f3243; /* Darker purple border */
@@ -11,10 +17,14 @@ body {
   padding: 20px;
 }
 
+/* Heading Styles */
+
 h1, h2, h3, h4, h5, h6 {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Text shadow */
   margin: 0; /* Reset margin for headings */
+  font-size: 2em; /* Use a flexible unit for font size */
 }
+
 main section h2 {
   position: relative;
   padding: 4px;
@@ -36,16 +46,20 @@ main section h2 {
   transform: scale(1.05); /* slight scale up effect on hover */
 }
 
+/* Header and Hero Styles */
+
 .header-content h1 {
-  font-size: 36px; /* Larger font size for header */
+  font-size: 3em; /* Larger font size for header */
   font-family: 'Playfair Display', serif; /* Custom font for header */
   margin-bottom: 20px; /* Space below header */
 }
 
 .hero-content h2 {
-  font-size: 24px; /* Larger font size for hero */
+  font-size: 2.5em; /* Larger font size for hero */
   font-family: 'Montserrat', sans-serif; /* Custom font for hero */
 }
+
+/* CTA Button Styles */
 
 .cta-btn {
   background-color: #453a62; /* Dark purple background for button */
@@ -54,7 +68,7 @@ main section h2 {
   border: none;
   border-radius: 10px;
   cursor: pointer;
-  font-size: 18px; /* Font size for button */
+  font-size: 1.5em; /* Font size for button */
   transition: background-color 0.3s ease; /* Smooth transition for hover */
 }
 
@@ -67,25 +81,27 @@ main section h2 {
   box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); /* Subtle glow on focus */
 }
 
-/* Responsive adjustments */
+/* Responsive Adjustments */
+
 @media (max-width: 768px) {
   #content-container {
       padding: 20px; /* Reduced padding for smaller screens */
   }
 
   .header-content h1 {
-      font-size: 28px; /* Smaller header size for mobile */
+      font-size: 2.5em; /* Smaller header size for mobile */
   }
 
   .hero-content h2 {
-      font-size: 20px; /* Smaller hero size for mobile */
+      font-size: 2em; /* Smaller hero size for mobile */
   }
 
   .cta-btn {
-      font-size: 16px; /* Smaller button size for mobile */
+      font-size: 1.2em; /* Smaller button size for mobile */
   }
 }
 
+/* Link and Image Styles */
 
 a {
   color: #aeb5df;
