@@ -2,7 +2,7 @@
 layout: none
 title: Classes
 ---
-## 6. **Classes**
+## **Classes**
 
 Vhalus offers a variety of classes, each specializing in unique ways to harness Enigmatica or physical combat abilities.
 

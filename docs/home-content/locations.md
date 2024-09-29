@@ -2,7 +2,7 @@
 layout: none
 title: Locations
 ---
-## 10. **Locations**
+## **Locations**
 
 The world map of Vhalus is **procedurally generated**. As regions are created and explored, they become filled with content, lore, and points of interest. Areas in between major locations will continue to be generated to fill gaps, ensuring that the world is dynamic and constantly evolving.
 

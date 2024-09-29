@@ -2,7 +2,7 @@
 layout: none
 title: Factions/Organizations
 ---
-## 8. **Factions/Organizations**
+## **Factions/Organizations**
 
 Several factions play key roles in shaping the politics, economics, and magic of Vhalus:
 

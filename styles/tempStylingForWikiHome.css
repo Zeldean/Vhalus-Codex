@@ -1,69 +1,108 @@
 body {
-    background-color: #3b3f54; /* Dark purple background */
-    color: #ccc; /* Light gray text */
-    font-family: 'Montserrat', sans-serif; /* Custom font */
-  }
+  background-color: #3b3f54; /* Dark purple background */
+  color: #ccc; /* Light gray text */
+  font-family: 'Montserrat', sans-serif; /* Custom font */
+  line-height: 1.6; /* Improved line height for readability */
+}
 
+#content-container {
+  width: 90%;
+  max-width: 1200px; /* Max width for larger screens */
+  margin: 0 auto;
+  background-color: #2f3243; /* Darker purple background for container */
+  padding: 30px; /* Increased padding for better spacing */
+  border: 1px solid #453a62; /* Dark purple border */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7); /* More prominent drop shadow */
+}
+
+.content-section {
+  background-color: #453a62; /* Dark purple background for section */
+  border: 1px solid #2f3243; /* Darker purple border */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px;
+  margin-bottom: 20px; /* Space between sections */
+}
+
+#world-overview-heading {
+  background-color: #2f3243; /* Dark purple background for heading */
+  color: #fff; /* White text */
+  padding: 15px 20px; /* Improved padding */
+  margin: 0;
+  border-bottom: 2px solid #453a62; /* Thicker dark purple border */
+  font-size: 26px; /* Slightly larger font size for heading */
+  font-weight: bold; /* Bold font weight for heading */
+  font-family: 'Playfair Display', serif; /* Custom font for headings */
+  text-align: left; /* Align text to the left */
+}
+
+#world-overview-content {
+  padding: 20px;
+  color: #ccc; /* Light gray text */
+  font-size: 18px; /* Font size for content */
+  line-height: 1.6; /* Improved line height for readability */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Text shadow */
+  margin: 0; /* Reset margin for headings */
+}
+h2{
+  border-bottom: solid black;
+  text-align: center;
+}
+
+.header-content h1 {
+  font-size: 36px; /* Larger font size for header */
+  font-family: 'Playfair Display', serif; /* Custom font for header */
+  margin-bottom: 20px; /* Space below header */
+}
+
+.hero-content h2 {
+  font-size: 24px; /* Larger font size for hero */
+  font-family: 'Montserrat', sans-serif; /* Custom font for hero */
+}
+
+.cta-btn {
+  background-color: #453a62; /* Dark purple background for button */
+  color: #fff; /* White text */
+  padding: 12px 24px; /* Increased padding */
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px; /* Font size for button */
+  transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+.cta-btn:hover {
+  background-color: #2f3243; /* Darker purple background for button on hover */
+}
+
+.cta-btn:focus {
+  outline: none; /* Remove default outline */
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); /* Subtle glow on focus */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
   #content-container {
-    width: 90%;
-    margin: 0 auto;
-    background-color: #2f3243; /* Darker purple background for container */
-    padding: 20px;
-    border: 1px solid #453a62; /* Dark purple border */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Drop shadow */
-  }
-
-  .content-section {
-    /* width: 60%; */
-    background-color: #453a62; /* Dark purple background for section */
-    border: 1px solid #2f3243; /* Darker purple border */
-    border-radius: 10px; /* Rounded corners */
-    padding: 20px;
-  }
-
-  #world-overview-heading {
-    background-color: #2f3243; /* Dark purple background for heading */
-    color: #fff; /* White text */
-    padding: 10px 0;
-    padding-left: 40px;
-    margin: 0;
-    border-bottom: 1px solid #453a62; /* Dark purple border */
-    font-size: 24px; /* Larger font size for heading */
-    font-weight: bold; /* Bold font weight for heading */
-    font-family: 'Playfair Display', serif; /* Custom font for headings */
-  }
-
-  #world-overview-content {
-    padding: 20px;
-    color: #ccc; /* Light gray text */
-    font-size: 18px; /* Larger font size for content */
-  }
-
-  /* Add some flair with custom fonts and text shadows */
-  h1, h2, h3, h4, h5, h6 {
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Text shadow */
+      padding: 20px; /* Reduced padding for smaller screens */
   }
 
   .header-content h1 {
-    font-size: 36px; /* Larger font size for header */
-    font-family: 'Playfair Display', serif; /* Custom font for header */
+      font-size: 28px; /* Smaller header size for mobile */
   }
 
   .hero-content h2 {
-    font-size: 24px; /* Larger font size for hero */
-    font-family: 'Montserrat', sans-serif; /* Custom font for hero */
+      font-size: 20px; /* Smaller hero size for mobile */
   }
 
   .cta-btn {
-    background-color: #453a62; /* Dark purple background for button */
-    color: #fff; /* White text */
-    padding: 10px 20px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
+      font-size: 16px; /* Smaller button size for mobile */
   }
+}
 
-  .cta-btn:hover {
-    background-color: #2f3243; /* Darker purple background for button on hover */
-  }
+
+a {
+  color: #aeb5df;
+}

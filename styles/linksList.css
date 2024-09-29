@@ -1,25 +1,27 @@
 
-ul {
+.pagesLinks ul {
     list-style: none;
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    row-gap: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* row-gap: 10px; */
+    /* width: fit-content; */
+    padding: 0;
 }
-li {
-    background-color: rgba(137, 43, 226, 0.582);
-    color: aliceblue;
+.pagesLinks li {
+    /* background-color: rgba(137, 43, 226, 0.582);
+    color: aliceblue; */
     width: fit-content;
     padding: 10px;
-    border-radius: 12px;
+    /* border-radius: 12px; */
 }
-li a {
+.pagesLinks li a {
     color: azure;
     text-decoration: none;
 }
 
 .pagesLinks {
-    width: 70%;
+    /* width: 70%; */
     margin: 0 auto;
-    text-align: center;
+    /* text-align: center; */
 }

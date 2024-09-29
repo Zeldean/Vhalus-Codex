@@ -6,7 +6,9 @@ body {
     background-color: #200a35;
     color: #333;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 header {
     background-color: #242424;
     padding: 20px;
@@ -60,20 +62,20 @@ header {
     text-align: center;
 }
 
-.codex-links {
+/* .codex-links {
     display: flex;
     justify-content: center;
     gap: 30px;
     margin-top: 30px;
-}
+} */
 
-.codex-links a {
+/* .codex-links a {
     background-color: #333;
     color: white;
     padding: 15px 20px;
     text-decoration: none;
     border-radius: 5px;
-}
+} */
 
 footer {
     background-color: #242424;

@@ -2,7 +2,7 @@
 layout: none
 title: Top Characters
 ---
-## 7. **Top Characters**
+## **Top Characters**
 
 Throughout Vhalus's history, a few individuals have risen to legendary status. Here are some of the most influential characters:
 

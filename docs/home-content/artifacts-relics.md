@@ -2,7 +2,7 @@
 layout: none
 title: Artifacts/Relics
 ---
-## 9. **Artifacts/Relics**
+## **Artifacts/Relics**
 
 Artifacts of immense power are scattered across Vhalus, often the remains of Primordials or highly concentrated forms of Enigmatica.
 
