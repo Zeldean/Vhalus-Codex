@@ -6,7 +6,7 @@ title: Enigmatica Manipulation
 
 In Vhalus, the **magic system** is intrinsically tied to the force known as **Enigmatica**. This enigmatic energy is a fundamental aspect of the world, flowing through all living beings and the very fabric of reality. It manifests in various forms and can be harnessed by those who understand its principles, leading to a rich tapestry of magical practices, abilities, and philosophies.
 
-![Some Art](../../images/magical-fantasy-landscape.jpg)
+![Some Art](../../images/73cea897-e1a5-49e7-ac6d-79102dc1a715.jpg)
 
 ### **Nature of Enigmatica**
 Enigmatica exists as both matter and energy, allowing it to influence the physical and magical realms simultaneously. It can be found in the environment, in the air, the soil, and within the bodies of creatures and plants. This unique duality means that those who can manipulate Enigmatica can reshape the world around them, wielding powers that can alter nature, create life, or even affect time and space.
