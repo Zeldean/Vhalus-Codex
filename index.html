@@ -20,34 +20,28 @@ layout: none
         </div>
     </header>
 
-    <section id="hero">
-        <div class="hero-content">
-            <h2>Welcome to Vhalus</h2>
-            <p>Explore the depths of magic, creatures, and the unknown in the world of Vhalus.</p>
-            <a href="#explore" class="cta-btn">Explore the Codex</a>
-        </div>
-    </section>
-    <section id="worldOverview">
-        <h2>World Overview</h2>
-        <!-- md file content here -->
-        <div class="markdown-content">
-            {% include world_overview.html %}
-
-        </div>
-    </section>
-    
-
-    <section class="pagesLinks">
-        <h2>Pages</h2>
-        <!-- Dynamically generate links to HTML pages -->
-        <ul>
-            {% for page in site.pages %}
-            {% if page.url contains '/docs/' %}
-            <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
-            {% endif %}
-            {% endfor %}
-        </ul>
-    </section>
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h2>Welcome to Vhalus</h2>
+                <p>Explore the depths of magic, creatures, and the unknown in the world of Vhalus.</p>
+                <a href="#explore" class="cta-btn">Explore the Codex</a>
+            </div>
+        </section>
+        
+        
+        <section class="pagesLinks">
+            <h2>Pages</h2>
+            <!-- Dynamically generate links to HTML pages -->
+            <ul>
+                {% for page in site.pages %}
+                {% if page.url contains '/docs/' %}
+                <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </section>
+    </main>
 
     <footer>
         <p>&copy; 2024 Vhalus-Codex. All rights reserved.</p>
